@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <Link
         href="/detail"
-        className=" p-2 border text-white bg-slate-500 rounded-md hover:bg-red-500"
+        className=" p-2 border text-white bg-slate-500 rounded-md hover:bg-red-500 mt-8"
       >
         View Detail
       </Link>

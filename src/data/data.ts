@@ -2,6 +2,27 @@ import { ItemProps } from './type'
 
 export const listItem: ItemProps[] = [
   {
+    title: 'Education',
+    list: [
+      {
+        item: [
+          {
+            title: 'University',
+            content: 'Posts and Telecommunications Institute of Technology',
+          },
+          {
+            title: 'Major',
+            content: 'Information secutity',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: 'Work Experience',
+    content: 'FE developer at ABC company about 1 year',
+  },
+  {
     title: 'Project',
     list: [
       {
@@ -21,6 +42,10 @@ export const listItem: ItemProps[] = [
           {
             title: 'description',
             content: 'Ecommerce website',
+          },
+          {
+            title: 'Link',
+            content: 'https://shopee.vn/',
           },
           {
             title: 'Technology',
@@ -103,7 +128,16 @@ export const listItem: ItemProps[] = [
     ],
   },
   {
-    title: 'programming language',
-    content: 'javacript, java, python',
+    title: 'Programming Language',
+    content: 'javacript, java, python, C/C++',
+  },
+  {
+    title: 'English level',
+    content: `TOEIC 600+ \n Read and write English`,
+  },
+  {
+    title: 'About me',
+    content:
+      'Cheerful, sociable, friendly, actively contributes ideas, eager to learn new technologies. Fond of sports',
   },
 ]

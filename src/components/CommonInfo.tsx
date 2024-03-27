@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 
 const info = [
-  { title: 'Full name', content: 'Thang Hoang' },
+  { title: 'Full name', content: 'Nguyen Van A' },
   { title: 'Date of birth', content: '29/02/2002' },
   { title: 'Age', content: '23' },
   { title: 'Phone number', content: '0123456789' },
