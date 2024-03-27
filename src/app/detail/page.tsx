@@ -1,5 +1,7 @@
+import ListItem from '@/components/ListItem'
+
 function DetailPage() {
-  return <div>Detail</div>
+  return <ListItem />
 }
 
 export default DetailPage
